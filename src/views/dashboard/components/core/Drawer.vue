@@ -141,6 +141,11 @@
           icon: 'mdi-bell',
           to: '/components/notifications',
         },
+        {
+          title: '路由管理',
+          icon: 'mdi-bell',
+          to: '/route/list',
+        },
       ],
     }),
 

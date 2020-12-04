@@ -56,6 +56,11 @@ export default new Router({
           path: 'upgrade',
           component: () => import('@/views/dashboard/Upgrade'),
         },
+        {
+          name: '路由管理',
+          path: 'route/list',
+          component: () => import('@/views/wm/gateway/route/routeList'),
+        },
       ],
     },
   ],
