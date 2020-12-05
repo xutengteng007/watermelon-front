@@ -6,3 +6,11 @@ export function getRouteList() {
     method: 'get'
   })
 }
+
+export function addRoute(data) {
+  return fetch({
+    url: '/route/add',
+    method: 'post',
+    data
+  })
+}
